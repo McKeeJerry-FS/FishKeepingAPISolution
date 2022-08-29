@@ -22,11 +22,22 @@ namespace FishKeepingAPI.Data
                 new FreshwaterTropicalFish{
                     CommonName = "Neon Tetra",
                     ScientificName = "Paracheirodon innesi",
+                    Family = "Characidae",
                     Temperment = "Community",
                     Origin = "Upper Amazon", 
                     Temp = 75,
                     PH = 6.8F
+                },
+                new FreshwaterTropicalFish{
+                    CommonName = "Emperor Tetra",
+                    ScientificName = "Nematobrycon palmeri",
+                    Family = "Characidae",
+                    Temperment = "Community",
+                    Origin = "Northern South America, Columbia", 
+                    Temp = 75,
+                    PH = 6.8F
                 }
+
             };
             return freshWaterFish;
         }

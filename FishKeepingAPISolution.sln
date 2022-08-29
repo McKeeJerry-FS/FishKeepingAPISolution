@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D1B9DFF-7E5E-4976-9928-0B3CE318EAC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishKeepingAPI", "src\FishKeepingAPI\FishKeepingAPI.csproj", "{0C3CC103-8137-46A0-B8C6-3C74A1F1F93E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{AC77D66D-2E0B-4D62-92F2-CB6C4A3D36C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishKeepingAPI.Tests", "test\FishKeepingAPI.Tests\FishKeepingAPI.Tests.csproj", "{0010EDC4-29CD-445F-97FF-EACFE4E1BE47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C3CC103-8137-46A0-B8C6-3C74A1F1F93E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3CC103-8137-46A0-B8C6-3C74A1F1F93E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3CC103-8137-46A0-B8C6-3C74A1F1F93E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3CC103-8137-46A0-B8C6-3C74A1F1F93E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0010EDC4-29CD-445F-97FF-EACFE4E1BE47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0010EDC4-29CD-445F-97FF-EACFE4E1BE47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0010EDC4-29CD-445F-97FF-EACFE4E1BE47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0010EDC4-29CD-445F-97FF-EACFE4E1BE47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C3CC103-8137-46A0-B8C6-3C74A1F1F93E} = {4D1B9DFF-7E5E-4976-9928-0B3CE318EAC6}
+		{0010EDC4-29CD-445F-97FF-EACFE4E1BE47} = {AC77D66D-2E0B-4D62-92F2-CB6C4A3D36C4}
+	EndGlobalSection
+EndGlobal

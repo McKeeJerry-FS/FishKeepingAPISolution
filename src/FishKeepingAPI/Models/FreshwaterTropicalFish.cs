@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FishKeepingAPI.Models
 {
-    public class FishKeepingAPI
+    public class FreshwaterTropicalFish
     {
         [Key]
         [Required]
@@ -17,7 +17,7 @@ namespace FishKeepingAPI.Models
         [Required]
         public string? Origin { get; set; }
         [Required]
-        public decimal PH { get; set; }
+        public float PH { get; set; }
         [Required]
         public int Temp { get; set; }
     }

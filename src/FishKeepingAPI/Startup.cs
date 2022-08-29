@@ -1,3 +1,5 @@
+using FishKeepingAPI.Data;
+
 namespace FishKeepingAPI
 {
     public class Startup
@@ -12,6 +14,7 @@ namespace FishKeepingAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped<IFishKeepingAPIRepo, MockFishKeepingAPIRepo>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
